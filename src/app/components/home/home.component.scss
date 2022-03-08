@@ -1,0 +1,54 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  padding: 2em;
+}
+
+.heading {
+  grid-column: 1/4;
+  justify-self: center;
+}
+
+.search {
+  grid-column: 1/2;
+  align-self: center;
+}
+
+.pagination {
+  grid-column: 3/4;
+  justify-self: end;
+  align-self: center;
+}
+
+.table {
+  display: grid;
+  grid-column: 1/4;
+}
+
+.addNew {
+  grid-column: 3/4;
+  justify-self: end;
+}
+
+table {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+}
+
+.availability {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+.toggle {
+  grid-column: 1/2;
+}
+
+.delete {
+  justify-self: end;
+}
