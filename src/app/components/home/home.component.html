@@ -3,7 +3,7 @@
   <div class="search">
     <mat-form-field class="input" appearance="fill">
       <mat-label>Book Search</mat-label>
-      <input matInput placeholder="Title" />
+      <input matInput placeholder="Title" [(ngModel)]="searchText" (input)="filterBooks()" />
     </mat-form-field>
   </div>
   <div class="pagination">Page 1 of 1</div>
